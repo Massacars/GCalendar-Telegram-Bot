@@ -1,0 +1,23 @@
+{
+  "name": "google-calendar-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon --inspect app.js",
+    "start": "pm2 start app.js"
+  },
+  "author": "Ruslan Massacars",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.0"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "config": "^3.3.0",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.5",
+    "node-telegram-bot-api": "^0.40.0"
+  }
+}
